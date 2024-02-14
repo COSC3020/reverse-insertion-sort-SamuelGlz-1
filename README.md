@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/Bi-S25fM)
 # Reverse Insertion Sort
 
 Consider the code for insertion sort we covered in class:
@@ -29,10 +30,10 @@ In the lectures, we covered that insertion sort has best-case time complexity of
 $\Theta(n)$ and worst-case time complexity of $\Theta(n^2)$. What is the
 average-case time complexity ($\Theta$)?
 
-Hint: Think about what happens in each iteration of the loop, and how often the
-loop is executed. Keep in mind that for asymptotic analysis we don't care about
-constant factors.
+## Answer
 
-Describe your reasoning and the conclusion you've come to. Your reasoning is
-most important -- you can easily find the answer, but you need to demonstrate
-that you've understood the concept. Add your answer to this markdown file.
+The time complexity would not be that much different form the normal insertion sort time complexity of
+best-case time complexity of $\Theta(n)$ and worst-case time complexity of $\Theta(n^2)$ . Since it would still
+be doing the same thing as regular insertion sort, of at best passing by the list once and not changing it or at worst having to compare 
+and sort every element of the array. 
+
